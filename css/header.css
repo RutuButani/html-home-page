@@ -1,0 +1,218 @@
+.header-social {
+  top: 0px;
+  left: 676px;
+  width: 1241px;
+  height: 40px;
+  float: right;
+  position: absolute;
+
+  background: #fff3f3 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.call-us-now {
+  top: 0px;
+  left: 1446px;
+  width: 181px;
+  height: 40px;
+  padding-left: 10px;
+  background: var(--unnamed-color-f91313) 0% 0% no-repeat padding-box;
+  background: #f91313 0% 0% no-repeat padding-box;
+  opacity: 1;
+  border: none;
+  color: white;
+}
+
+.call-us-now img {
+  margin-right: 5px;
+  top: 13px;
+  left: 1479px;
+  width: 15px;
+  height: 15px;
+}
+
+.facebook-logo {
+  top: 14px;
+  left: 1362px;
+  width: 8px;
+  height: 15px;
+  margin-left: 686px;
+}
+.instagram-logo {
+  margin: 0 23.97px;
+}
+/*----------------------------------------------------------------------------------------------*/
+.navbar {
+  position: relative;
+  margin-top: 40.5px;
+  display: flex;
+  align-items: center;
+}
+
+.rvcentral-logo {
+  margin-left: 292px;
+  margin-right: 254px; /* Adjust as needed */
+}
+.navbar div {
+  /* Adjust as needed */
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+.navbar div {
+  /* margin-right: 30px;  */
+  color: #212121;
+  text-transform: capitalize;
+  text-align: left;
+  font: normal normal medium 16px/25px Poppins;
+
+  /* Adjust as needed */
+}
+
+/* If you want the last div to have no right margin */
+.navbar div:last-child {
+  margin-right: 305.44px;
+}
+.title {
+  margin-right: 69px;
+}
+.title div:last-child {
+  margin-right: 38.56px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+}
+
+/* Style for the dropdown button */
+.dropbtn {
+  padding: 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+/* Style for the arrow icon */
+.dropbtn::after {
+  content: "▼";
+  position: absolute;
+  right: 7;
+}
+
+/* Style for the dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Style for the dropdown items */
+.dropdown-content a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+/* Style for the dropdown items on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown content when the button is hovered */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/*--------------------------------------------------------------------------------------------*/
+
+.center {
+  background-color: #f91313;
+  position: relative;
+}
+.center-img {
+  width: 907px;
+  height: auto;
+  float: right;
+}
+.content {
+  position: absolute;
+  top: 379px;
+  left: 292px;
+}
+.red-border {
+  width: 62px;
+  height: 0px;
+  border: 6px solid #f91313;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
+.next-advanture {
+  width: 662px;
+  height: 177px;
+  /* UI Properties */
+  font-size: 67px;
+  transform: Titlecase;
+  letter-spacing: -1.34px;
+  margin-top: 26px;
+}
+.red-text {
+  color: #f91313;
+  font-style: italic; /* Red color */
+}
+.description {
+  height: 58px;
+  width: 662px;
+  font-size: 20px;
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-normal) var(--unnamed-font-size-20) /
+    var(--unnamed-line-spacing-30) var(--unnamed-font-family-poppins);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-757575);
+  text-align: left;
+  font: normal normal normal 20px/30px Poppins;
+  letter-spacing: 0px;
+  color: #757575;
+  opacity: 1;
+  align-items: left;
+}
+
+.drop-box {
+  height: 110px;
+  width: 1336px;
+  margin-top: 87px;
+  display: flex;
+  background-color: white;
+  box-shadow: -1px 3px 28px #00000014;
+  border-radius: 15px;
+  opacity: 1;
+}
+
+.drop-box > div {
+  flex: 1;
+  height: 100%;
+  text-align: center;
+  line-height: 110px; /* Adjust the line-height to vertically center the text */
+}
+
+.drop-box > div:not(:last-child) {
+  border-right: 1px solid #ccc; /* Add a border between each div */
+}
+
+.search
+{
+  background-color: #f91313;
+  box-shadow: 0px 3px 30px #0000001A;
+border-radius: 15px;
+
+}
+.search-btn
+{
+  border: none;
+  background-color: red;
+  text-align: center;
+  color: white;
+  
+}
